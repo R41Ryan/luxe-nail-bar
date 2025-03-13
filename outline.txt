@@ -1,0 +1,8 @@
+* Prefer minimalist modern look
+* Front Page: Has online booking link, Name, and Phone Number of Store
+* What we offer: Background info and why they should come to us (Seperate)
+* Services: for example, head spa, nail enhancements, waxing, predicures, and manicures (Seperate)
+* Beverage menu that can be accessed at any time (like in a nav bar) (Seperate)
+* Media Gallery of nail salon
+* Area to put reviews and testimonials
+* Contact Info

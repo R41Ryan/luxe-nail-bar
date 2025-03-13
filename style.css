@@ -1,19 +1,74 @@
-header {
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #fdfd96;
+    --accent-color: #654321;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+}
+
+body {
+    font-family: "Cactus Classical Serif", serif;
+}
+
+header, nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
+header {
+    background-color: var(--secondary-color);
+    border-style: solid;
+    border-color: #654321;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+h1 {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-style: groove;
+    border-color: var(--accent-color);
+    border-width: 0.5rem;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .header-links {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-evenly;
+    justify-content:space-between;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-header ul {
+.header-links li {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-style: solid;
+    border-radius: 25%;
+}
+
+nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
