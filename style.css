@@ -90,3 +90,21 @@ button {
 #hero img {
     margin: 1rem;
 }
+
+#gallery {
+    display: flex;
+    align-items: center;
+    background-color: #fdfd96;
+    padding: 1rem;
+    border: solid var(--accent-color);
+    overflow: hidden;
+}
+
+.gallery-container {
+    display: flex;
+    gap: 5px;
+    overflow: hidden;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    scroll-behavior: smooth;
+}
