@@ -59,11 +59,25 @@ nav ul {
     margin: 0;
 }
 
+button {
+    background-color: var(--primary-color);
+    border-style: groove;
+    border-width: 0.5rem;
+    border-radius: 30%;
+    border-color: var(--accent-color);
+    font-family: "Cactus Classical Serif", serif;
+    padding: 5px;
+}
+
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: var(--secondary-color);
+    padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border-style: solid;
+    border-color: var(--accent-color);
 }
 
 #hero div {
@@ -71,4 +85,8 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#hero img {
+    margin: 1rem;
 }
