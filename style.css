@@ -66,6 +66,11 @@ nav ul {
     margin: 0;
 }
 
+main {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 button {
     background-color: var(--primary-color);
     border-style: groove;
@@ -139,12 +144,23 @@ button {
     max-height: 50px;
 }
 
+#about-us-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
+#about-us-summary p {
+    text-align: center;
+}
+
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: var(--secondary-color);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 5rem;
 }
 
 footer ul {
