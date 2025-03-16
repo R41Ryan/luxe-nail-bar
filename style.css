@@ -4,13 +4,20 @@
     --accent-color: #654321;
 }
 
+a {
+    all: unset;
+    display: inline;
+    cursor: pointer;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
 }
 
-body {
+html, body {
     font-family: "Cactus Classical Serif", serif;
     margin: 0px;
+    padding: 0px;
 
 }
 
@@ -130,4 +137,21 @@ button {
 .testimonial img {
     max-width: 50px;
     max-height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+footer li {
+    margin-bottom: 1rem;
 }
