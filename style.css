@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: "Cactus Classical Serif", serif;
+    margin: 0px;
+
 }
 
 header, nav {
@@ -20,8 +22,6 @@ header, nav {
 
 header {
     background-color: var(--secondary-color);
-    border-style: solid;
-    border-color: #654321;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
 }
@@ -76,8 +76,6 @@ button {
     padding: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-style: solid;
-    border-color: var(--accent-color);
 }
 
 #hero div {
@@ -94,9 +92,8 @@ button {
 #gallery {
     display: flex;
     align-items: center;
-    background-color: #fdfd96;
+    background-color: var(--secondary-color);
     padding: 1rem;
-    border: solid var(--accent-color);
     overflow: hidden;
 }
 
@@ -107,4 +104,30 @@ button {
     margin-left: 1rem;
     margin-right: 1rem;
     scroll-behavior: smooth;
+}
+
+#testimonials {
+    display: flex;
+    background-color: var(--secondary-color);
+    align-items: center;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.testimonial {
+    max-width: 480px;
+    min-width: 480px;
+    background-color: var(--primary-color);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.testimonial img {
+    max-width: 50px;
+    max-height: 50px;
 }
