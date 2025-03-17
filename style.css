@@ -172,6 +172,32 @@ button {
     column-gap: 1rem;
 }
 
+#beverage-menu-section {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beverage-menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.beverage {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
