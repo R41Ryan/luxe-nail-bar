@@ -21,10 +21,16 @@ html, body {
 
 }
 
-header, nav {
+header, #top-nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    #top-nav-bar {
+        display: none;
+    }
 }
 
 header {
@@ -41,6 +47,16 @@ h1 {
     border-width: 0.5rem;
     border-radius: 50%;
     text-align: center;
+}
+
+#side-nav-bar-btn {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    #side-nav-bar-btn {
+        display: block;
+    }
 }
 
 .header-links {
@@ -90,6 +106,13 @@ button {
     margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 480px) {
+    #hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 #hero div {
     display: flex;
     flex-direction: column;
@@ -99,6 +122,8 @@ button {
 
 #hero img {
     margin: 1rem;
+    max-width: 100%;
+    height: auto;
 }
 
 #gallery {
