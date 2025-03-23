@@ -1,6 +1,7 @@
 :root {
     --primary-color: #ffffff;
     --secondary-color: #fdfd96;
+    --tertiary-color: #dbdb74;
     --accent-color: #654321;
 }
 
@@ -58,13 +59,20 @@ h1 {
     height: 100%;
     width: 0;
     position: fixed;
-    background-color: var(--secondary-color);
-    border-style: solid;
+    background-color: var(--tertiary-color);
+    border-style: hidden;
     border-color: var(--accent-color);
     overflow-x: hidden;
     z-index: 1;
     top: 0;
+    right: 0;
     transition: 0.5s;
+}
+
+#side-nav-bar button {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -83,6 +91,7 @@ h1 {
 }
 
 #side-nav-bar .header-links {
+    padding-top: 4rem;
     flex-direction: column;
 }
 

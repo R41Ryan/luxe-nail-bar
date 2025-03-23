@@ -12,7 +12,6 @@ document
   .querySelector("#testimonials .right-scroll-btn")
   .addEventListener("click", () => scrollTestimonials(1, 400));
 
-
 function scrollGallery(direction, amount) {
   document
     .querySelector("#gallery .gallery-container")
