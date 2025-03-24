@@ -315,6 +315,17 @@ button {
   align-items: flex-start;
 }
 
+.collapsible button {
+  width: 100%;
+  border-radius: 0%;
+}
+
+.collapsible .content {
+  height: 0px;
+  transition: height 0.5s;
+  overflow: hidden;
+}
+
 .beverage {
   background-color: var(--primary-color);
   display: flex;
