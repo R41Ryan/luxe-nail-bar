@@ -56,6 +56,7 @@ h1 {
 }
 
 #side-nav-bar {
+    display: none;
     height: 100%;
     width: 0;
     position: fixed;
@@ -77,6 +78,10 @@ h1 {
 
 @media screen and (max-width: 480px) {
     #side-nav-bar-btn {
+        display: block;
+    }
+
+    #side-nav-bar {
         display: block;
     }
 }
@@ -255,6 +260,7 @@ footer {
     justify-content: space-between;
     background-color: var(--secondary-color);
     padding: 5rem;
+    min-height: 25vh;
 }
 
 footer ul {
