@@ -153,6 +153,7 @@ button {
   border-color: var(--accent-color);
   font-family: "Cactus Classical Serif", serif;
   padding: 5px;
+  cursor: pointer;
 }
 
 #hero {
@@ -284,7 +285,6 @@ button {
 }
 
 .services-list-container {
-  height: 500px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -320,10 +320,13 @@ button {
   background-color: var(--primary-color);
 }
 
+.collapsible-btn {
+  cursor: pointer;
+}
+
 .collapsible button {
   width: 100%;
   border-radius: 0%;
-  cursor: pointer;
 }
 
 .collapsible .content {
