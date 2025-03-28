@@ -338,6 +338,10 @@ button {
   align-items: center;
 }
 
+.beverage-menu-container .collapsible-btn {
+  margin-bottom: 1rem;
+}
+
 .collapsible {
   width: 100%;
   background-color: var(--primary-color);
