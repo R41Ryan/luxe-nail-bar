@@ -5,6 +5,10 @@
   --accent-color: #654321;
 }
 
+html {
+  background-color: var(--secondary-color);
+}
+
 a {
   all: unset;
   display: inline;
@@ -54,9 +58,21 @@ header,
 }
 
 header {
+  position: fixed;
+  overflow-y: hidden;
+  top: 0;
+  width: 100%;
+  max-height: 150px;
   background-color: var(--secondary-color);
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  transition: max-height 0.5s;
+  border-bottom-style: ridge;
+  border-color: var(--accent-color);
+} 
+
+.minimized {
+  max-height: 0px;
 }
 
 h1 {
@@ -141,7 +157,8 @@ nav ul {
 }
 
 main {
-  margin-top: 1rem;
+  background-color: var(--primary-color);;
+  margin-top: 150px;
   margin-bottom: 1rem;
 }
 
