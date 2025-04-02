@@ -1,3 +1,5 @@
+import Collapsible from "./components/collapsible";
+
 function ServicesPage() {
   return (
     <main>
@@ -354,35 +356,30 @@ function ServicesPage() {
                 </ul>
               </div>
             </div>
-            <div className="service-subcategory collapsible">
-              <h3 className="service-subcategory-name collapsible-btn">
-                Additional
-              </h3>
-              <ul className="content">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Item</th>
-                      <th>Price</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Shoulder + Neck Pain Care (45 min)</td>
-                      <td>$60</td>
-                    </tr>
-                    <tr>
-                      <td>Hot Stone (10 min)</td>
-                      <td>$10</td>
-                    </tr>
-                    <tr>
-                      <td>Herbal Footbath (10 min)</td>
-                      <td>$10</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </ul>
-            </div>
+            <Collapsible buttonText={"Additional"}>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Shoulder + Neck Pain Care (45 min)</td>
+                    <td>$60</td>
+                  </tr>
+                  <tr>
+                    <td>Hot Stone (10 min)</td>
+                    <td>$10</td>
+                  </tr>
+                  <tr>
+                    <td>Herbal Footbath (10 min)</td>
+                    <td>$10</td>
+                  </tr>
+                </tbody>
+              </table>
+            </Collapsible>
           </div>
         </div>
       </section>
