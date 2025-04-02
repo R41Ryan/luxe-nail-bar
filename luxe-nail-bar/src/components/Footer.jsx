@@ -1,19 +1,35 @@
-function Footer() {
+function Footer({ setPage }) {
   return (
     <>
       <footer>
         <p>Contact Info</p>
         <ul>
-          <a href="./about-us.html">
+          <a
+            onClick={() => {
+              setPage("about-us");
+            }}
+          >
             <li>About Us</li>
           </a>
-          <a href="./services.html">
+          <a
+            onClick={() => {
+              setPage("services");
+            }}
+          >
             <li>Services</li>
           </a>
-          <a href="./beverage-menu.html">
+          <a
+            onClick={() => {
+              setPage("beverage-menu");
+            }}
+          >
             <li>Beverage Menu</li>
           </a>
-          <a href="./health-and-safety.html">
+          <a
+            onClick={() => {
+              setPage("health-and-safety");
+            }}
+          >
             <li>Health And Safety</li>
           </a>
         </ul>
