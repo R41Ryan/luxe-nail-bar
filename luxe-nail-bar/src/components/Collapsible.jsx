@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Collapsible({ children, buttonText }) {
+function Collapsible({ children, buttonText, headerTag: Tag = "h2" }) {
   const [collapsed, setCollapsed] = useState(true);
 
   function handleClick() {
@@ -10,9 +10,9 @@ function Collapsible({ children, buttonText }) {
 
   return (
     <div className="collapsible">
-      <h3 className="collapsible-btn" onClick={handleClick}>
+      <Tag className="collapsible-btn" onClick={handleClick}>
         {buttonText}
-      </h3>
+      </Tag>
       <div
         className="content"
         style={{

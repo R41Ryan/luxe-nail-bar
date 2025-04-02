@@ -48,11 +48,8 @@ function ServicesPage() {
                   </tr>
                 </tbody>
               </table>
-              <div className="service-subcategory collapsible">
-                <h3 className="service-subcategory-name collapsible-btn">
-                  Additional
-                </h3>
-                <table className="service-list content">
+              <Collapsible buttonText={"Additional"} headerTag="h3">
+                <table className="service-list">
                   <thead>
                     <tr>
                       <th>Type</th>
@@ -110,7 +107,7 @@ function ServicesPage() {
                     </tr>
                   </tbody>
                 </table>
-              </div>
+              </Collapsible>
             </div>
             <div className="service-group">
               <h2 className="service-category-name">Pedicure Spa Services</h2>
@@ -356,7 +353,7 @@ function ServicesPage() {
                 </ul>
               </div>
             </div>
-            <Collapsible buttonText={"Additional"}>
+            <Collapsible buttonText={"Additional"} headerTag="h3">
               <table>
                 <thead>
                   <tr>
