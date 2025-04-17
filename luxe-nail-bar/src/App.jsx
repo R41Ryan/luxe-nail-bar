@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -19,6 +19,12 @@ function App() {
     "beverage-menu": <BeverageMenuPage />,
     "health-and-safety": <HealthAndSafetyPage />,
   };
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      window.scrollTo(0, 0, { behavior: "smooth" });
+    }, 250);
+  }, [page]);
 
   return (
     <>

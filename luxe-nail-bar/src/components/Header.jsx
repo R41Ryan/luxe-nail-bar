@@ -81,7 +81,12 @@ function Header({ setPage }) {
         </div>
       </nav>
       <header className={minimized ? "minimized" : ""}>
-        <a onClick={() => {setPage("home")}}>
+        <a
+          onClick={() => {
+            setPage("home");
+            setSideNavOpen(false);
+          }}
+        >
           <h1>Luxe Nail Bar</h1>
         </a>
         <nav id="top-nav-bar">
