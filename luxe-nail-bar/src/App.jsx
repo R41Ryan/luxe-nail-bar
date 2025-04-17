@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from "react";
-import { AnimatePresence } from "framer-motion";
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import PageWrapper from "./components/PageWrapper";
@@ -30,9 +30,11 @@ function App() {
     <>
       <Header setPage={setPage} />
       <AnimatePresence mode="wait">
-        <PageWrapper key={page}>{pages[page]}</PageWrapper>
+        <PageWrapper key={page}>
+          {pages[page]}
+          <Footer setPage={setPage} />
+        </PageWrapper>
       </AnimatePresence>
-      <Footer setPage={setPage} />
     </>
   );
 }

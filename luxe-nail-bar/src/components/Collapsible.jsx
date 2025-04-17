@@ -4,7 +4,6 @@ function Collapsible({ children, buttonText, headerTag: Tag = "h2" }) {
   const [collapsed, setCollapsed] = useState(true);
 
   function handleClick() {
-    console.log(collapsed);
     setCollapsed(!collapsed);
   }
 
