@@ -25,6 +25,14 @@ h6 {
   font-family: "Tangerine", cursive;
 }
 
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
 html,
 body {
   font-family: "Montserrat", sans-serif;
@@ -51,6 +59,7 @@ header,
   margin-right: 1rem;
   gap: 1rem;
   align-self: center;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 540px) {
@@ -78,16 +87,6 @@ header {
 .minimized {
   max-height: 0px;
   opacity: 0;
-}
-
-h1 {
-  padding: 1rem;
-  background-color: var(--primary-color);
-  border-style: groove;
-  border-color: var(--accent-color);
-  border-width: 0.5rem;
-  border-radius: 50%;
-  text-align: center;
 }
 
 .side-nav-bar-btn {
@@ -153,11 +152,12 @@ h1 {
 }
 
 .header-links li {
-  background-color: var(--primary-color);
   padding: 0.5rem;
   margin: 0.5rem;
-  border-style: solid;
-  border-radius: 25%;
+}
+
+.header-links li:hover {
+  text-decoration: underline;
 }
 
 nav ul {
@@ -196,30 +196,59 @@ button {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 540px) {
-  #hero {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
 
 #hero div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
-#hero div h2 {
+#hero div h1, #hero div h2, #hero div button {
+  text-align: start;
+  margin: 0.25rem 3rem;
+}
+
+#hero div h1 {
   color: var(--primary-color);
   text-shadow: -1px -1px var(--accent-color), -1px 1px var(--accent-color),
     1px -1px var(--accent-color), 1px 1px var(--accent-color);
+  font-size: 70px;
+}
+
+#hero div h2 {
+  font-weight: bolder;
+  font-size: 30px;
+  font-weight: 300;
+  color: black;
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 #hero img {
   margin: 1rem;
   max-width: 100%;
   height: auto;
+}
+
+
+@media screen and (max-width: 540px) {
+  #hero div {
+    justify-content: start;
+    margin-top: 200px;
+    width: 90vw;
+  }
+
+  #hero div h1 {
+    position: relative;
+    margin-right: 0;
+    font-size: 60px;
+  }
+
+  #hero div h2 {
+    margin-right: 0;
+    font-size: 21px;
+  }
 }
 
 #gallery {

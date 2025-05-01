@@ -4,7 +4,7 @@ function ServicesPage() {
   return (
     <main>
       <section id="services-list-section">
-        <h2>Our Services</h2>
+        <h1>Our Services</h1>
         <div className="services-list-container">
           <div className="basic-services">
             <div className="service-group">

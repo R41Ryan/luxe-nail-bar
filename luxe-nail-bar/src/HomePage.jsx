@@ -4,7 +4,8 @@ function HomePage() {
       <main>
       <section id="hero">
         <div>
-          <h2>Fancy Slogan or saying here</h2>
+          <h1>Luxe Nail Bar</h1>
+          <h2>Refresh. Rejuvenate. Repolish!</h2>
           <button>Book Appointment</button>
         </div>
       </section>

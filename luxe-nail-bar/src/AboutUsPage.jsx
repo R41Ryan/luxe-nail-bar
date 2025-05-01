@@ -2,7 +2,7 @@ function AboutUsPage() {
   return (
     <main>
       <section id="about-us-summary">
-        <h2>About Luxe Hair Salon</h2>
+        <h1>About Luxe Hair Salon</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
