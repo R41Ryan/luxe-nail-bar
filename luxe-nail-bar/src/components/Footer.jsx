@@ -3,7 +3,7 @@ function Footer({ setPage }) {
     <>
       <footer>
         <p>116 Government Road North, Diamond Valley <br /> AB, Canada T0L 0H0</p>
-        <p></p>
+        <p>+1(587) 837-1781</p>
         <ul>
           <a
             onClick={() => {
