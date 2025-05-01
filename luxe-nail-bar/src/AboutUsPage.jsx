@@ -4,13 +4,7 @@ function AboutUsPage() {
       <section id="about-us-summary">
         <h1>About Luxe Hair Salon</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Nails are our thing, but making people feel amazing? That’s our real passion. At Luxe Nail Bar, we mix top-notch technique with a touch of sparkle and a whole lot of heart. Whether you're into bold designs, clean classics, or somewhere in between, we’ve got you. We’re not just here to polish — we’re here to lift you up, one pampered hand (or foot!) at a time. And if you're craving next-level relaxation, our soothing head spa services are just the escape you need. Think gentle scalp massages, calming aromas, and total tranquility — perfect for hitting pause and resetting your vibe. At Luxe, beauty and wellness go hand in hand.
         </p>
         <button>Book Appointment</button>
       </section>

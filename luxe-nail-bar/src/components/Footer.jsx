@@ -2,7 +2,8 @@ function Footer({ setPage }) {
   return (
     <>
       <footer>
-        <p>Contact Info</p>
+        <p>116 Government Road North, Diamond Valley <br /> AB, Canada T0L 0H0</p>
+        <p></p>
         <ul>
           <a
             onClick={() => {
