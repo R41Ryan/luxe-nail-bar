@@ -3,6 +3,7 @@ import instagramLogo from "../assets/instagram.svg";
 import facebookLogo from "../assets/facebook.svg";
 import twitterXLogo from "../assets/twitter-x.svg";
 import threeDots from "../assets/three-dots-vertical.svg";
+import businessLogo from "../assets/luxe-nail-bar-logo.png";
 
 function Header({ setPage }) {
   const [sideNavOpen, setSideNavOpen] = useState(false);
@@ -87,7 +88,7 @@ function Header({ setPage }) {
             setSideNavOpen(false);
           }}
         >
-          <h1>Luxe Nail Bar</h1>
+          <img className="business-logo" src={businessLogo} />
         </a>
         <nav id="top-nav-bar">
           <ul className="header-links">
