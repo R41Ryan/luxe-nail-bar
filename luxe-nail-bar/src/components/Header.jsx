@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import instagramLogo from "../assets/instagram.svg";
 import facebookLogo from "../assets/facebook.svg";
 import twitterXLogo from "../assets/twitter-x.svg";
+import tiktokLogo from "../assets/tiktok.svg"
 import threeDots from "../assets/three-dots-vertical.svg";
 import businessLogo from "../assets/luxe-nail-bar-logo.png";
 
@@ -76,9 +77,9 @@ function Header({ setPage }) {
           </a>
         </ul>
         <div className="social-media-links">
-          <img src={instagramLogo} alt="Instagram" />
-          <img src={facebookLogo} alt="FaceBook" />
-          <img src={twitterXLogo} alt="Twitter X" />
+          <a href="https://www.instagram.com/luxenailsbar_bd?igsh=MWM0M2RqbjlhenFqdw==" target="_blank" rel="noopener noreferrer"><img src={instagramLogo} alt="Instagram" /></a>
+          <a href="" target="_blank" rel="noopener noreferrer"><img src={facebookLogo} alt="FaceBook" /></a>
+          <a href="https://www.tiktok.com/@luxe.nail.bar.bla?_t=ZM-8w0HZdpPMrG&_r=1" target="_blank" rel="noopener noreferrer"><img src={tiktokLogo} alt="Tiktok" /></a>
         </div>
       </nav>
       <header className={minimized ? "minimized" : ""}>
@@ -123,9 +124,9 @@ function Header({ setPage }) {
           </ul>
         </nav>
         <div className="social-media-links">
-          <img src={instagramLogo} alt="Instagram" />
-          <img src={facebookLogo} alt="FaceBook" />
-          <img src={twitterXLogo} alt="Twitter X" />
+          <a href="https://www.instagram.com/luxenailsbar_bd?igsh=MWM0M2RqbjlhenFqdw==" target="_blank" rel="noopener noreferrer"><img src={instagramLogo} alt="Instagram" /></a>
+          <a href="" target="_blank" rel="noopener noreferrer"><img src={facebookLogo} alt="FaceBook" /></a>
+          <a href="https://www.tiktok.com/@luxe.nail.bar.bla?_t=ZM-8w0HZdpPMrG&_r=1" target="_blank" rel="noopener noreferrer"><img src={tiktokLogo} alt="Tiktok" /></a>
         </div>
         <img
           className="side-nav-bar-btn"
