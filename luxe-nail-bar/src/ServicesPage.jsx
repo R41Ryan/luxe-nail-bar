@@ -43,8 +43,8 @@ function ServicesPage() {
               <h3>Addons</h3>
               {category.addons.map((addon, addonIndex) => (
                 <div key={addonIndex} className="addon-name-price">
-                  <h4>{addon.name}</h4>
-                  <h4>${addon.price}</h4>
+                  <h4 className="addon-name">{addon.name}</h4>
+                  <h4 className="addon-price">${addon.price}</h4>
                 </div>
               ))}
             </div>
