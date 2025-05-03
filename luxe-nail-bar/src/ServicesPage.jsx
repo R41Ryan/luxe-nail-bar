@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
+import "./ServicesPage.css";
 
 function ServicesPage() {
   const [serviceData, setServiceData] = useState([]);
   const [servicesHTML, setServicesHTML] = useState([]);
-  const [selectedCategoryIndex, setSelectedCategoryIndex] = useState(-1);
+  const [selectedCategoryIndex, setSelectedCategoryIndex] = useState(0);
 
   useEffect(() => {
     const fetchServices = async () => {
@@ -24,20 +25,21 @@ function ServicesPage() {
 
   useEffect(() => {
     const generateServicesHTML = () => {
-      return serviceData.map((category, categoryIndex) => <div key={categoryIndex}>
-        <h2>{category.category}</h2>
-        <div className="services-list">
+      return serviceData.map((category, categoryIndex) => (
+        <div className="category-content" key={categoryIndex}>
           {category.services.map((service, serviceIndex) => (
             <div key={serviceIndex} className="service-item">
               <div className="service-name-price">
-                <h3>{service.name}</h3>
-                <p>${service.price}</p>
+                <h3 className="service-name">{service.name}</h3>
+                <h3 className="service-price">${service.price}</h3>
               </div>
-              {service.description && <p className="service-description">{service.description}</p>}
+              {service.description && (
+                <p className="service-description">{service.description}</p>
+              )}
             </div>
           ))}
         </div>
-      </div>);
+      ));
     };
 
     setServicesHTML(generateServicesHTML());
@@ -51,8 +53,10 @@ function ServicesPage() {
           {serviceData.map((category, categoryIndex) => (
             <button
               key={categoryIndex}
-              className={`category-button ${selectedCategoryIndex === categoryIndex ? "active" : ""}`}
-              onClick={() => setSelectedCategoryIndex(selectedCategoryIndex === categoryIndex ? -1 : categoryIndex)}
+              className={`category-button ${
+                selectedCategoryIndex === categoryIndex ? "active" : ""
+              }`}
+              onClick={() => setSelectedCategoryIndex(categoryIndex)}
             >
               {category.category}
             </button>
