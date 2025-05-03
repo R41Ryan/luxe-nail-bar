@@ -1,0 +1,252 @@
+[
+  {
+    "category": "Nail Enhancements",
+    "services": [
+      {
+        "name": "Full Set Clear (UV Gel, Sola Nail)",
+        "price": 55
+      },
+      {
+        "name": "Full Set Clear (Bio Sculpture)",
+        "price": 65
+      },
+      {
+        "name": "Full Set Overlay Clear (UV Gel, Sola Nail)",
+        "price": 55
+      },
+      {
+        "name": "Dipping Powder Colour",
+        "price": 65
+      }
+    ],
+    "addons": [
+      {
+        "name": "French",
+        "price": 10
+      },
+      {
+        "name": "Deep French",
+        "price": 20
+      },
+      {
+        "name": "Nail Art",
+        "price": 5
+      },
+      {
+        "name": "Nail Repair",
+        "price": 5
+      },
+      {
+        "name": "Regular Polish Change",
+        "price": 20
+      },
+      {
+        "name": "French Polish Change",
+        "price": 20
+      },
+      {
+        "name": "Shallac Application",
+        "price": 30
+      },
+      {
+        "name": "Long Nail Extra",
+        "price": 5
+      },
+      {
+        "name": "Ombre Extra",
+        "price": 10
+      },
+      {
+        "name": "Shallac Remove",
+        "price": 10
+      },
+      {
+        "name": "Nail Remove",
+        "price": 20
+      },
+      {
+        "name": "Paraffin Wax",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "category": "Pedicure Spa Services",
+    "services": [
+      {
+        "name": "Herbal Organic Deluxe Services",
+        "price": 85
+      },
+      {
+        "name": "Pedicure & Manicure",
+        "price": 80
+      },
+      {
+        "name": "Signature Pedicure",
+        "price": 65
+      },
+      {
+        "name": "Classic Pedicure",
+        "price": 50
+      },
+      {
+        "name": "Foot Massage (30 min)",
+        "price": 45
+      }
+    ],
+    "addons": [
+      {
+        "name": "Additional Foot Massage (+10 min)",
+        "price": 20
+      },
+      {
+        "name": "Add Shallac on Pedicure",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "category": "Manicure Spa Services",
+    "services": [
+      {
+        "name": "Classic Manicure",
+        "price": 40
+      },
+      {
+        "name": "Deluxe Manicure",
+        "price": 55
+      },
+      {
+        "name": "Kid Under 12 Manicure",
+        "price": 25
+      },
+      {
+        "name": "Kid Under 12 Pedicure",
+        "price": 35
+      },
+      {
+        "name": "Kid Under 12 Manicure & Pedicure",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "category": "Waxing Services",
+    "services": [
+      {
+        "name": "Eyebrow Wax",
+        "price": 20
+      },
+      {
+        "name": "Upper Lip Wax",
+        "price": 10
+      },
+      {
+        "name": "Chin Wax",
+        "price": 15
+      },
+      {
+        "name": "Full Face Wax",
+        "price": 60
+      },
+      {
+        "name": "Underarm Wax",
+        "price": 25
+      },
+      {
+        "name": "Half Arm Wax",
+        "price": 30
+      },
+      {
+        "name": "Full Arm Wax",
+        "price": 45
+      },
+      {
+        "name": "Half Leg Wax",
+        "price": 45
+      },
+      {
+        "name": "Full Leg Wax",
+        "price": 70
+      },
+      {
+        "name": "Bikini Wax",
+        "price": 45
+      },
+      {
+        "name": "Brazilian Wax",
+        "price": 60
+      }
+    ]
+  },
+  {
+    "category": "Lashes & Brows",
+    "services": [
+      {
+        "name": "Eyebrow Tinting",
+        "price": 20
+      },
+      {
+        "name": "Eyelash Tinting",
+        "price": 30
+      },
+      {
+        "name": "Eyelash Extension Classic (Full Set)",
+        "price": 65
+      },
+      {
+        "name": "Eyelash Extension Volume (Full Set)",
+        "price": 95
+      },
+      {
+        "name": "Eyebrow Extension Hybrid (Full Set)",
+        "price": 85
+      },
+      {
+        "name": "Lash Lift",
+        "price": 80
+      },
+      {
+        "name": "Lash Lift & Tint",
+        "price": 95
+      },
+      {
+        "name": "Lash Remove",
+        "price": 35
+      },
+      {
+        "name": "Eyebrow Lamination",
+        "price": 90
+      },
+      {
+        "name": "Eyebrow Lamination & Tint",
+        "price": 100
+      }
+    ]
+  },
+  {
+    "category": "Head Spas",
+    "services": [
+      {
+        "name": "Express (30 min)",
+        "price": 45,
+        "description": "Relaxing Scalp Massage, Shampoo & Conditioner, Blow Dry"
+      },
+      {
+        "name": "Relax (60 min)",
+        "price": 90,
+        "description": "Acupressure Head and Face, Relaxing Scalp Massage, Face (Cleanser, Massage, Face Mask) Shampoo & Conditioner, Blow Dry"
+      },
+      {
+        "name": "Pamper (90 min)",
+        "price": 120,
+        "description": "Acupressure Head and Face, Relaxing Scalp, Neck, Shoulders Massage, Face (Cleanser, Massage, Face Mask, Gua Sha Lifting), Herbal Eyes Pad, Shampoo & Conditioner, Blow Dry"
+      },
+      {
+        "name": "Heaven (120 min)",
+        "price": 180,
+        "description": "Acupressure Head and Face, Relaxing Scalp, Neck, Shoulders, Arm, Legs Massage, Face (Cleanser, Massage, Face Mask, Gua Sha Lifting), Herbal Eyes Pad, Herbal Head Steam, Shampoo & Conditioner, Blow Dry"
+      }
+    ]
+  }
+]
