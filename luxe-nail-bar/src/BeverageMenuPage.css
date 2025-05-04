@@ -8,6 +8,10 @@
   width: 100%;
 }
 
+#beverage-menu-section h2 {
+  text-align: center;
+}
+
 .beverage-menu-container {
   width: 80%
 }
