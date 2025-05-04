@@ -48,3 +48,18 @@
 .category-content {
   width: 100%;
 }
+
+@media (max-width: 450px) {
+  #beverage-menu-section {
+    max-width: 90%;
+  }
+
+  .beverage-menu-container {
+    width: 90%;
+  }
+
+  .beverages-categories {
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+}
