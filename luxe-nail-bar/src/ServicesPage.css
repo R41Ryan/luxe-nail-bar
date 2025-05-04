@@ -10,12 +10,13 @@
 .services-categories {
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 540px) {
   .services-categories {
     max-width: 100%;
-    overflow-x: scroll;
   }
 }
 
