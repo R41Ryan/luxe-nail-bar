@@ -58,10 +58,6 @@
             {
                 "name": "beverage_name",
                 "description": "beverage_description"
-            },
-            {
-                "name": "beverage_name",
-                "description": "beverage_description"
             }
         ]
     },
@@ -75,40 +71,12 @@
             {
                 "name": "beverage_name",
                 "description": "beverage_description"
-            },
-            {
-                "name": "beverage_name",
-                "description": "beverage_description"
-            },
-            {
-                "name": "beverage_name",
-                "description": "beverage_description"
-            },
-            {
-                "name": "beverage_name",
-                "description": "beverage_description"
-            },
-            {
-                "name": "beverage_name",
-                "description": "beverage_description"
-            },
-            {
-                "name": "beverage_name",
-                "description": "beverage_description"
             }
         ]
     },
     {
         "category": "Smoothies",
         "beverages": [
-            {
-                "name": "beverage_name",
-                "description": "beverage_description"
-            },
-            {
-                "name": "beverage_name",
-                "description": "beverage_description"
-            },
             {
                 "name": "beverage_name",
                 "description": "beverage_description"
