@@ -1,0 +1,102 @@
+[
+    {
+        "category": "Mocktails",
+        "beverages": [
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            }
+        ]
+    },
+    {
+        "category": "Soft Drinks",
+        "beverages": [
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            }
+        ]
+    },
+    {
+        "category": "Hot Drinks",
+        "beverages": [
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            }
+        ]
+    },
+    {
+        "category": "Smoothies",
+        "beverages": [
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            },
+            {
+                "name": "beverage_name",
+                "description": "beverage_description"
+            }
+        ]
+    }
+]
