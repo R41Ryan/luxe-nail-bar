@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./BeverageMenuPage.css"
 
 function BeverageMenuPage() {
   const [beverageData, setBeverageData] = useState([]);
