@@ -151,21 +151,28 @@ button {
   }
 }
 
-#gallery {
-  display: none;
-  align-items: center;
-  background-color: var(--secondary-color);
-  padding: 1rem;
-  overflow: hidden;
+.image-gallery img {
+  height: 50vh;
+  width: auto;
+  margin: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.gallery-container {
-  display: flex;
-  gap: 5px;
-  overflow: hidden;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  scroll-behavior: smooth;
+@media (max-width: 540px) {
+  .image-gallery .left-scroll-btn, .image-gallery .right-scroll-btn {
+    display: none !important;
+  }
+
+  .image-gallery .gallery-container {
+    overflow-x: scroll !important;
+  }
+
+  .image-gallery img {
+    height: 30vh;
+    width: auto;
+  }
+  
 }
 
 #testimonials {
