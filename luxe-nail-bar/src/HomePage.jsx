@@ -1,9 +1,17 @@
+import backgroundVideo from "./assets/hero-video.mp4";
+import "./HomePage.css";
+
 function HomePage() {
   return (
     <>
       <main>
       <section id="hero">
-        <div>
+        <div className="hero-bg">
+          <video autoPlay loop muted playsInline className="hero-video">
+            <source src={backgroundVideo} type="video/mp4" />
+          </video>
+        </div>
+        <div className="hero-content">
           <h1>Luxe Nail Bar</h1>
           <h2>Refresh. Rejuvenate. Repolish!</h2>
           <button>Book Appointment</button>
