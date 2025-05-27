@@ -1,4 +1,5 @@
 import ScrollingGallery from "./components/ScrollingGallery";
+import Divider from "./components/Divider";
 import backgroundVideo from "./assets/hero-video.mp4";
 import "./HomePage.css";
 
@@ -10,7 +11,7 @@ function HomePage() {
 
   return (
     <>
-      <main>
+      <main className="home-page">
         <section id="hero">
           <div className="hero-bg">
             <video autoPlay loop muted playsInline className="hero-video">
@@ -24,25 +25,32 @@ function HomePage() {
           </div>
         </section>
 
-        <ScrollingGallery className="image-gallery">
-          {Object.values(images).map((image, index) => (
-            <div className="gallery-item" key={index}>
-              <img src={image} alt={`Gallery Image ${index + 1}`} />
-            </div>
-          ))}
-        </ScrollingGallery>
+        <Divider />
 
-        <section id="testimonials">
-          <button className="left-scroll-btn">{"<"}</button>
-          <div className="gallery-container">
+        <section className="images-section">
+          <h2>Gallery</h2>
+          <ScrollingGallery className="image-gallery">
+            {Object.values(images).map((image, index) => (
+              <div className="gallery-item" key={index}>
+                <img src={image} alt={`Gallery Image ${index + 1}`} />
+              </div>
+            ))}
+          </ScrollingGallery>
+        </section>
+
+        <Divider />
+
+        <section className="testimonials-section">
+          <h2>Testimonials</h2>
+          <ScrollingGallery className="testimonial-gallery">
             <div className="testimonial">
               <img src="https://placehold.co/50x50" />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
@@ -54,8 +62,8 @@ function HomePage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
@@ -67,8 +75,8 @@ function HomePage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
@@ -80,8 +88,8 @@ function HomePage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
@@ -93,15 +101,14 @@ function HomePage() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <p className="testimontial-author">Testimonial Author</p>
             </div>
-          </div>
-          <button className="right-scroll-btn">{">"}</button>
+          </ScrollingGallery>
         </section>
       </main>
     </>
