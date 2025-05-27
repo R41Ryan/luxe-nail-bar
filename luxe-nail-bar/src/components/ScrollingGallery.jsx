@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import "./ScrollingGallery.css";
 
 function ScrollingGallery({
   children,
@@ -36,6 +37,7 @@ function ScrollingGallery({
     overflow: "hidden",
     gap: "10px",
     scrollBehavior: "smooth",
+    padding: "0 20px",
   };
 
   return (
@@ -55,12 +57,14 @@ function ScrollingGallery({
       <button className="left-scroll-btn" onClick={() => scroll(-scrollAmount)}>
         {"<"}
       </button>
-      <div
-        ref={containerRef}
-        className="gallery-container"
-        style={galleryStyle}
-      >
-        {children}
+      <div className="gallery-wrapper">
+          <div
+            ref={containerRef}
+            className="gallery-container"
+            style={galleryStyle}
+          >
+            {children}
+          </div>
       </div>
       <button className="right-scroll-btn" onClick={() => scroll(scrollAmount)}>
         {">"}

@@ -1,0 +1,24 @@
+.gallery-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-wrapper::before, .gallery-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.gallery-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.8), transparent);
+}
+
+.gallery-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.8), transparent);
+}
