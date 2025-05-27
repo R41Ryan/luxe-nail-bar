@@ -1,7 +1,9 @@
+import "./HealthAndSafetyPage.css";
+
 function HealthAndSafetyPage() {
   return (
     <main>
-      <section id="health-and-safety-summary">
+      <section className="health-and-safety-section">
         <h2>Our Health and Safety Standards</h2>
         <p>
           At Luxe Nail Bar, your health and safety are our top priorities. We

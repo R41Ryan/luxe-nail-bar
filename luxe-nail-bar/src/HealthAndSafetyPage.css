@@ -1,0 +1,8 @@
+.health-and-safety-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-top: var(--margin-top-gap);
+  padding: 1rem;
+}
