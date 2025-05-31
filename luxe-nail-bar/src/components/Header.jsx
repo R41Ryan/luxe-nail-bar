@@ -61,14 +61,6 @@ function Header({ setPage }) {
           </a>
           <a
             onClick={() => {
-              setPage("beverage-menu");
-              setSideNavOpen(false);
-            }}
-          >
-            <li>Beverage Menu</li>
-          </a>
-          <a
-            onClick={() => {
               setPage("health-and-safety");
               setSideNavOpen(false);
             }}
@@ -106,13 +98,6 @@ function Header({ setPage }) {
               }}
             >
               <li>Services</li>
-            </a>
-            <a
-              onClick={() => {
-                setPage("beverage-menu");
-              }}
-            >
-              <li>Beverage Menu</li>
             </a>
             <a
               onClick={() => {

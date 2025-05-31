@@ -60,6 +60,7 @@ function ServicesPage() {
     <main>
       <section id="services-list-section">
         <h1>Our Services</h1>
+        <p>1 Complimentary Drink per customer. Soft Drinks Included. No Alcohol.</p>
         <div className="services-categories">
           {serviceData.map((category, categoryIndex) => (
             <button

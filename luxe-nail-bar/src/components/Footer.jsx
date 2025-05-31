@@ -23,13 +23,6 @@ function Footer({ setPage }) {
           </a>
           <a
             onClick={() => {
-              setPage("beverage-menu");
-            }}
-          >
-            <li>Beverage Menu</li>
-          </a>
-          <a
-            onClick={() => {
               setPage("health-and-safety");
             }}
           >
