@@ -74,17 +74,14 @@
     "category": "Pedicure & Manicure Spa Services",
     "services": [
       {
-        "name": "Herbal Organic Deluxe Services",
-        "price": 85
-      },
-      {
         "name": "Classic Pedicure",
         "price": 50,
         "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Hot Stone, Hot Towel, and Food Massage."
       },
       {
         "name": "Signature Pedicure",
-        "price": 65
+        "price": 65,
+        "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Pumice Use, Hot Stone, Hot Towel, Foot Mask, and Foot Massage."
       },
       {
         "name": "Deluxe Pedicure",
@@ -122,7 +119,8 @@
       },
       {
         "name": "Kid Under 12 Manicure & Pedicure",
-        "price": 50
+        "price": 50,
+        "description": "Includes Kid Under 12 Pedicure and Kid Under 12 Manicure."
       }
     ],
     "addons": [
