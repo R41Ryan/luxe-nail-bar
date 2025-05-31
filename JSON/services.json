@@ -71,27 +71,58 @@
     ]
   },
   {
-    "category": "Pedicure Spa Services",
+    "category": "Pedicure & Manicure Spa Services",
     "services": [
       {
         "name": "Herbal Organic Deluxe Services",
         "price": 85
       },
       {
-        "name": "Pedicure & Manicure",
-        "price": 80
+        "name": "Classic Pedicure",
+        "price": 50,
+        "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Hot Stone, Hot Towel, and Food Massage."
       },
       {
         "name": "Signature Pedicure",
         "price": 65
       },
       {
-        "name": "Classic Pedicure",
-        "price": 50
+        "name": "Deluxe Pedicure",
+        "price": 80,
+        "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Hot Stone, Hot Towel, and Food Massage. Also has exfoliation, paraffin wax treament, foot mask, and hydrating lotion."
+      },
+      {
+        "name": "Classic Manicure",
+        "price": 40,
+        "description": "Fingernails and Hands: Filling, Shaping, Cuticle Work, Hot Towel, Hand Massage, and Polish."
+      },
+      {
+        "name": "Deluxe Manicure",
+        "price": 55,
+        "description": "Fingernails and Hands: Filling, Shaping, Cuticle Work, Hot Towel, Hand Massage, and Polish. Also has Paraffin Wax Treatment."
       },
       {
         "name": "Foot Massage (30 min)",
         "price": 45
+      },
+      {
+        "name": "Pedicure & Manicure",
+        "price": 70,
+        "description": "Includes Classic Pedicure and Classic Manicure."
+      },
+      {
+        "name": "Kid Under 12 Manicure",
+        "price": 25,
+        "description":"Fingernails and Hands: Filling, Shaping, Cuticle Work, Hot Towel, Hand Massage, and Polish."
+      },
+      {
+        "name": "Kid Under 12 Pedicure",
+        "price": 35,
+        "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Hot Stone, Hot Towel, and Food Massage."
+      },
+      {
+        "name": "Kid Under 12 Manicure & Pedicure",
+        "price": 50
       }
     ],
     "addons": [
@@ -102,31 +133,6 @@
       {
         "name": "Add Shallac on Pedicure",
         "price": 20
-      }
-    ]
-  },
-  {
-    "category": "Manicure Spa Services",
-    "services": [
-      {
-        "name": "Classic Manicure",
-        "price": 40
-      },
-      {
-        "name": "Deluxe Manicure",
-        "price": 55
-      },
-      {
-        "name": "Kid Under 12 Manicure",
-        "price": 25
-      },
-      {
-        "name": "Kid Under 12 Pedicure",
-        "price": 35
-      },
-      {
-        "name": "Kid Under 12 Manicure & Pedicure",
-        "price": 50
       }
     ]
   },
@@ -192,15 +198,27 @@
       },
       {
         "name": "Eyelash Extension Classic (Full Set)",
-        "price": 65
+        "price": 75
+      },
+      {
+        "name": "Eyelash Extension Classic (Fill)",
+        "price": 60
       },
       {
         "name": "Eyelash Extension Volume (Full Set)",
         "price": 95
       },
       {
-        "name": "Eyebrow Extension Hybrid (Full Set)",
+        "name": "Eyelash Extension Volume (Fill)",
+        "price": 80
+      },
+      {
+        "name": "Eyelash Extension Hybrid (Full Set)",
         "price": 85
+      },
+      {
+        "name": "Eyelash Extension Hybrid (Fill)",
+        "price": 70
       },
       {
         "name": "Lash Lift",
