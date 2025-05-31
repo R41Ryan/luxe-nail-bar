@@ -71,43 +71,24 @@
     ]
   },
   {
-    "category": "Pedicure Spa Services",
+    "category": "Pedicure & Manicure Spa Services",
     "services": [
       {
         "name": "Herbal Organic Deluxe Services",
         "price": 85
       },
       {
-        "name": "Pedicure & Manicure",
-        "price": 80
+        "name": "Classic Pedicure",
+        "price": 50
       },
       {
         "name": "Signature Pedicure",
         "price": 65
       },
       {
-        "name": "Classic Pedicure",
-        "price": 50
+        "name": "Deluxe Pedicure",
+        "price": 80
       },
-      {
-        "name": "Foot Massage (30 min)",
-        "price": 45
-      }
-    ],
-    "addons": [
-      {
-        "name": "Additional Foot Massage (+10 min)",
-        "price": 20
-      },
-      {
-        "name": "Add Shallac on Pedicure",
-        "price": 20
-      }
-    ]
-  },
-  {
-    "category": "Manicure Spa Services",
-    "services": [
       {
         "name": "Classic Manicure",
         "price": 40
@@ -115,6 +96,14 @@
       {
         "name": "Deluxe Manicure",
         "price": 55
+      },
+      {
+        "name": "Foot Massage (30 min)",
+        "price": 45
+      },
+      {
+        "name": "Pedicure & Manicure",
+        "price": 70
       },
       {
         "name": "Kid Under 12 Manicure",
@@ -127,6 +116,16 @@
       {
         "name": "Kid Under 12 Manicure & Pedicure",
         "price": 50
+      }
+    ],
+    "addons": [
+      {
+        "name": "Additional Foot Massage (+10 min)",
+        "price": 20
+      },
+      {
+        "name": "Add Shallac on Pedicure",
+        "price": 20
       }
     ]
   },
@@ -192,15 +191,27 @@
       },
       {
         "name": "Eyelash Extension Classic (Full Set)",
-        "price": 65
+        "price": 75
+      },
+      {
+        "name": "Eyelash Extension Classic (Fill)",
+        "price": 60
       },
       {
         "name": "Eyelash Extension Volume (Full Set)",
         "price": 95
       },
       {
-        "name": "Eyebrow Extension Hybrid (Full Set)",
+        "name": "Eyelash Extension Volume (Fill)",
+        "price": 80
+      },
+      {
+        "name": "Eyelash Extension Hybrid (Full Set)",
         "price": 85
+      },
+      {
+        "name": "Eyelash Extension Hybrid (Fill)",
+        "price": 70
       },
       {
         "name": "Lash Lift",
