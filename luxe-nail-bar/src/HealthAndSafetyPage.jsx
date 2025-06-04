@@ -36,7 +36,7 @@ function HealthAndSafetyPage() {
           Your well-being matters to us, and we are committed to providing a
           safe, relaxing, and luxurious experience every time you visit.
         </p>
-        <button>Book Appointment</button>
+        <a href="https://www.dashbooking.com/salon/luxe-nails-spa-diamond-valley" target="_blank"><button>Book Appointment</button></a>
       </section>
     </main>
   );

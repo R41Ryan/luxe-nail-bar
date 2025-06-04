@@ -21,7 +21,7 @@ function HomePage() {
           <div className="hero-content">
             <h1>Luxe Nail Bar</h1>
             <h2>Refresh. Rejuvenate. Repolish!</h2>
-            <button>Book Appointment</button>
+            <a href="https://www.dashbooking.com/salon/luxe-nails-spa-diamond-valley" target="_blank"><button>Book Appointment</button></a>
           </div>
         </section>
 
