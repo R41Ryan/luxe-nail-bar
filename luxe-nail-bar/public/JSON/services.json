@@ -4,11 +4,19 @@
     "services": [
       {
         "name": "Full Set Clear (UV Gel, Sola Nail)",
-        "price": 55
+        "price": 60
+      },
+      {
+        "name": "Fill Set Clear (UV Gel, Sola Nail)",
+        "price": 50
       },
       {
         "name": "Full Set Clear (Bio Sculpture)",
         "price": 65
+      },
+      {
+        "name": "Fill Set Clear (Bio Sculpture)",
+        "price": 55
       },
       {
         "name": "Full Set Overlay Clear (UV Gel, Sola Nail)",
@@ -30,7 +38,7 @@
       },
       {
         "name": "Nail Art",
-        "price": 5
+        "price": "5+"
       },
       {
         "name": "Nail Repair",
@@ -45,16 +53,16 @@
         "price": 20
       },
       {
-        "name": "Shallac Application",
-        "price": 30
-      },
-      {
         "name": "Long Nail Extra",
         "price": 5
       },
       {
         "name": "Ombre Extra",
-        "price": 10
+        "price": 20
+      },
+      {
+        "name": "Shallac Application",
+        "price": 35
       },
       {
         "name": "Shallac Remove",
@@ -76,7 +84,7 @@
       {
         "name": "Classic Pedicure",
         "price": 50,
-        "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Hot Stone, Hot Towel, and Food Massage."
+        "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Hot Stone, Hot Towel, and Foot Massage."
       },
       {
         "name": "Signature Pedicure",
@@ -86,7 +94,7 @@
       {
         "name": "Deluxe Pedicure",
         "price": 80,
-        "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Hot Stone, Hot Towel, and Food Massage. Also has exfoliation, paraffin wax treament, foot mask, and hydrating lotion."
+        "description": "Foot Soak, Nail Clipping, Nail Shaping, Cuticle Work, Foot Scrub, Hot Stone, Hot Towel, Candle Massage and Foot Massage. Also has exfoliation, paraffin wax treament, foot mask, and hydrating lotion."
       },
       {
         "name": "Classic Manicure",
