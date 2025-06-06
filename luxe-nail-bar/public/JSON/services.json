@@ -4,19 +4,13 @@
     "services": [
       {
         "name": "Full Set Clear (UV Gel, Sola Nail)",
-        "price": 60
-      },
-      {
-        "name": "Fill Set Clear (UV Gel, Sola Nail)",
-        "price": 50
+        "price": 60,
+        "fillPrice": 50
       },
       {
         "name": "Full Set Clear (Bio Sculpture)",
-        "price": 65
-      },
-      {
-        "name": "Fill Set Clear (Bio Sculpture)",
-        "price": 55
+        "price": 65,
+        "fillPrice": 55
       },
       {
         "name": "Full Set Overlay Clear (UV Gel, Sola Nail)",

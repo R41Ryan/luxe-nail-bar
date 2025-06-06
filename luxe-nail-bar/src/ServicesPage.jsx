@@ -31,7 +31,14 @@ function ServicesPage() {
             <div key={serviceIndex} className="service-item">
               <div className="service-name-price">
                 <h3 className="service-name">{service.name}</h3>
-                <h3 className="service-price">${service.price}</h3>
+                <div className="service-price-container">
+                  <h3 className="service-price">${service.price}</h3>
+                  {service.fillPrice && (
+                    <h3 className="service-fill-price">
+                      Fill: ${service.fillPrice}
+                    </h3>
+                  )}
+                </div>
               </div>
               {service.description && (
                 <p className="service-description">{service.description}</p>
